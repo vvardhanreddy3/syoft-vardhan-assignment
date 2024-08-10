@@ -1,0 +1,111 @@
+.home-page__main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-page__main-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-details-card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-details-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-details-card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.user-details-card p strong {
+  color: #000;
+}
+/* src/Welcome.css */
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0d1a3a;
+  color: white;
+  padding: 20px;
+}
+
+.welcome-content {
+  max-width: 500px;
+  text-align: center;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.welcome-description {
+  margin: 20px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.community-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.community-text {
+  font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .welcome-title {
+    font-size: 2rem;
+  }
+
+  .welcome-description {
+    font-size: 0.9rem;
+  }
+
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+}
+.btn {
+  padding: 8px;
+  border: 1px solid #555;
+  margin-top: 6px;
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: #21618c;
+  width: 100px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #3498db;
+}

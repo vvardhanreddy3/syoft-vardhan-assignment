@@ -1,0 +1,126 @@
+.signup-page__bg-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.alll.com/wp-content/uploads/2019/01/signup-background.jpg");
+  background-size: cover;
+}
+
+.signup-page__left-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.signup-page__right-section {
+  flex-grow: 1;
+  padding: 1rem 2rem;
+}
+
+.signup-page__form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-page__form-container h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 12px;
+  font-weight: bold;
+}
+
+.signup-page__form-container p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: black;
+  font-weight: bold;
+}
+
+.signup-page__link-items {
+  text-decoration: none;
+  color: #c0392b;
+  margin-left: 5px;
+}
+
+label {
+  margin: 15px 0 5px 0;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+}
+
+.signup-page__password-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.signup-page__password-wrapper button {
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.signup-page__password-icons {
+  font-size: 16px;
+}
+
+.signup-page__checkbox-and-policy-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.signup-page__checkbox-and-policy-wrapper input {
+  height: 15px;
+  width: 15px;
+  margin: 2px 5px 0 0;
+}
+
+.signup-page__checkbox-and-policy-wrapper p {
+  font-weight: 400;
+}
+
+.signup-page__submit-btn {
+  background-color: #4f46e5;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signup-page__submit-btn-disabled {
+  background-color: #a4a1d0;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signup-page__err-msg {
+  text-align: center;
+  font-size: 12px;
+  color: red;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-page__left-section {
+    display: none;
+  }
+}

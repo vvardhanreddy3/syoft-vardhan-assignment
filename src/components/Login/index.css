@@ -1,0 +1,150 @@
+input {
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+}
+
+.login-page__password-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.login-page__password-wrapper button {
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.login-page__password-icons {
+  font-size: 16px;
+}
+
+.login-page__submit-btn {
+  background-color: #4f46e5;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 220px;
+  margin: 7px 0px;
+}
+
+.login-page__submit-btn-disabled {
+  background-color: #a4a1d0;
+  padding: 12px 0;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page__left-section {
+    display: none;
+  }
+}
+/* main */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #060700 0%, #19150c 100%);
+}
+.login-form {
+  background: linear-gradient(135deg, #6a6f4d, #a777e3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.login-button {
+  background-color: #4a00e0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+  font-size: 18px;
+}
+
+.login-button:hover {
+  background-color: #8e2de2;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-form {
+    padding: 15px;
+  }
+
+  .login-button {
+    padding: 10px 15px;
+  }
+
+  .input-group input {
+    padding: 8px;
+  }
+}
+.login-page__err-msg {
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  margin: 5px 0;
+  font-weight: 400;
+  text-decoration: underline;
+}
